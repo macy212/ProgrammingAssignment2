@@ -15,8 +15,8 @@ makeCacheMatrix <- function(x = matrix()) {
              getinverse = getinverse)
 }
 
-## Get a matrix(an object of 'makeCacheMatrix') and check the whther the inverse has
-## been calculated.
+## Get a matrix(an object of 'makeCacheMatrix') and check the whther the inverse
+## has been calculated.
 cacheSolve <- function(x, ...) {
         inv <- x$getinverse()
         if (!is.null(inv)) {
